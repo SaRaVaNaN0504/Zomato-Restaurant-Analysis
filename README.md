@@ -1,29 +1,41 @@
-# Zomato Restaurant Analysis
+# 🍽️ Zomato Restaurant Analysis (EDA + Clustering)
 
 ## 📌 Project Overview
-This project analyzes Zomato restaurant data to:
-- Perform **EDA** on cost and cuisines.
-- Apply **KMeans clustering** to segment restaurants.
-- Conduct **sentiment analysis** on customer reviews.
+This project analyzes Zomato restaurant data using **Exploratory Data Analysis (EDA)** and **Unsupervised Machine Learning (Clustering)**. It also includes **Sentiment Analysis** on customer reviews.
 
-## 📊 Key Steps
-- Data Cleaning and Preprocessing
-- Exploratory Data Analysis (Visualizations)
-- KMeans Clustering (Unsupervised Learning)
-- Sentiment Analysis using TextBlob
+## ✅ Objectives
+- Perform EDA on Zomato restaurant metadata.
+- Apply **KMeans Clustering** to segment restaurants based on cost and ratings.
+- Conduct **Sentiment Analysis** on customer reviews using TextBlob.
+- Derive actionable insights for business strategy.
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 - Python, Pandas, NumPy
 - Matplotlib, Seaborn
-- Scikit-learn, TextBlob
+- Scikit-learn
+- TextBlob
 
-## 🔗 View Full Notebook
-[Google Colab Link](https://colab.research.google.com/drive/1KULySKHYog6Ub6z0rNvflvgAtadJ4VWC?usp=sharing)
-
-## 📂 Files
-- `Zomato_Analysis.ipynb` → Main project notebook
-
+## 📂 Dataset
+- **Restaurant Metadata:** Name, Cost, Cuisines, Timings
+- **Customer Reviews:** Review text, Rating
 
 
+## 🔍 Key Steps
+1. Data Cleaning & Preprocessing
+2. EDA: Cost distribution, Top cuisines
+3. Clustering using KMeans
+4. Sentiment Analysis on reviews
+5. Insights & Business Recommendations
 
+## 📊 Results
+- 4 meaningful restaurant clusters identified.
+- Most reviews are positive, but issues include delivery delays and pricing.
 
+## 📌 Notebook
+[View the Notebook](https://colab.research.google.com/drive/1KULySKHYog6Ub6z0rNvflvgAtadJ4VWC?usp=sharing)
+
+---
+
+### 📈 Future Work
+- Add a Recommendation System
+- Build an interactive dashboard
