@@ -18,10 +18,12 @@ This project analyzes Zomato restaurant data to:
 - Scikit-learn, TextBlob
 
 ## 🔗 View Full Notebook
-[Google Colab Link](your-colab-link)
+[Google Colab Link](https://colab.research.google.com/drive/1KULySKHYog6Ub6z0rNvflvgAtadJ4VWC?usp=sharing)
 
 ## 📂 Files
 - `Zomato_Analysis.ipynb` → Main project notebook
+
+
 
 
 
